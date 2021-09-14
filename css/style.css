@@ -31,7 +31,7 @@ body {
   transition: 0.6s;
 }
 .single-product:hover {
-  background-color: rgba(0, 132, 255, 0.13);
+  background-color: rgba(194, 196, 197, 0.87);
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
