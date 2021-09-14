@@ -28,10 +28,10 @@ const showProducts = (products) => {
         <span class="fa fa-star checked"></span>
         ${product.rating.rate}
         </p>
-        <h4 class="rating">
+        <h6 class="rating">
         Total Review  (${product.rating.count})
-        
-        </h4>
+        </h6>
+        <h4>Product Price : ${product.price}</h4>
       </div>
       <div class="card-footer">
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
