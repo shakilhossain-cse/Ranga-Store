@@ -15,7 +15,7 @@ const showProducts = (products) => {
     div.classList.add("product");
     div.innerHTML = `
     <div class="col single-product  rounded-3">
-    <div class="card h-100">
+    <div class="card bg-warning bg-opacity-10">
       <img src="${image}" class="card-img-top product-image p-4" alt="...">
       <div class="card-body">
         <h5 class="card-title">${product.title}</h5>
